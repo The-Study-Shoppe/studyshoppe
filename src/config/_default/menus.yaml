@@ -1,0 +1,28 @@
+# Navigation Links
+#   To link a page section, specify the URL as a hash `/#` followed by the `id` of the section.
+#   The `weight` parameter defines the order that the links will appear in.
+
+main:
+  - name: Home
+    url: /#top
+    weight: 10
+  - name: Sign Up
+    url: /sign-up
+    weight: 20
+  - name: Daily Schedule
+    url: /daily-schedule
+    weight: 30
+  # - name: Solutions
+  #   url: /#solutions
+  #   weight: 30
+  - name: Contact Us
+    weight: 100
+    hasChildren: true
+  - parent: Contact Us
+    name: "(217) 994-3682"
+    url: tel:+12179943682
+    weight: 10
+  - parent: Contact Us
+    name: "study@studyshoppe.org"
+    url: "mailto:study@studyshoppe.org?subject=Request%20for%20Information"
+    weight: 20

@@ -1,0 +1,10 @@
+# Hugo Blox
+# Social sharing links
+# Docs: https://docs.hugoblox.com/reference/page-sharer/
+
+links:
+  - id: facebook
+    url: 'https://www.facebook.com/TheStudyShoppe/'
+    title: Facebook
+    icon: brands/facebook
+    enable: true

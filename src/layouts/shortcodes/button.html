@@ -1,0 +1,14 @@
+<a href="{{ .Get "link" | default "#" }}" {{ if eq (.Get "newtab" ) "true" }}target="_blank" {{ end }}
+    style="text-decoration: none;">
+    <button style="
+        background-color: #1c2c84; 
+        color: white; 
+        padding: 10px 20px; 
+        border: 2px solid black; 
+        border-radius: 8px;
+        cursor: pointer; 
+        transition: background-color 0.2s;
+        " onmouseover="this.style.backgroundColor='#283fbd'" onmouseout="this.style.backgroundColor='#1c2c84'">
+        {{ .Get "text" | default "Click Here" }}
+    </button>
+</a>
